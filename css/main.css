@@ -1,0 +1,19 @@
+.title {
+	text-align: center;
+	font-weight: bold;
+}
+
+.track {
+	background-color: lightblue;
+	height: 40px;
+	width: 80%;
+}
+#p1 {
+	text-align: center;
+	display: inline-block;
+	color: red;
+	border: 1px solid black;
+}
+.divider {
+	width: 80%;
+}
