@@ -12,19 +12,19 @@ $(document).ready(function() {
 
 
 function charizard () {
-  $('#charizard').animate({left:'750px'},9500, function (){
+  $('#charizard').animate({left:'1000px'},12000, function (){
     if(gameOver!==true) {
-      alert('You lost!')
+      Materialize.toast('You lost!', 10000)
       gameOver = true
     }
   });
 }
 
-//9500 for 9.5 seconds
+//12000 for 12 seconds
 //when start is pressed, start charizard
 
 $('#start').click(function(){
-  $('#start').toggle();
+  // $('#start').toggle();
   charizard();
 });
 
@@ -39,15 +39,15 @@ $(document).keydown(function(event){
   }
   
   //if Pikachu win:reaches the end of track
-  if($('#pikachu').css('left')=='750px') {
+  if($('#pikachu').css('left')=='1000px') {
     if(gameOver!==true) {
-      alert('Pikachu wins! Press reset to play again')
+      Materialize.toast('Pikachu wins! Press reset to play again', 10000);
       gameOver=true;
     }
   }
-  if($('#charmander').css('left')=='750px') {
+  if($('#charmander').css('left')=='1000px') {
     if(gameOver!==true) {
-      alert('Charmander wins! Press reset to play again')
+      Materialize.toast('Charmander wins! Press reset to play again', 10000);
       gameOver=true;
     }
   }

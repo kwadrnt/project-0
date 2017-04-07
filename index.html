@@ -7,13 +7,13 @@
 	<title>Pokemon Dash</title>
 	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
-	<link rel="shortcut icon" type="image/x-icon" href="https://pokemongocheat.com/img/favicon.png" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
 	<script
 	src="https://code.jquery.com/jquery-3.2.1.min.js"
 	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 	crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="https://pokemongocheat.com/img/favicon.png" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
 	<script type="text/javascript" src="js/main.js" ></script>
 </head>
 <body>
@@ -26,23 +26,27 @@
 	</div>
 </div>
 <!-- backgound image is my racetrack -->
-<img id="background" src="http://il3.picdn.net/shutterstock/videos/5001788/thumb/6.jpg?i10c=img.resize(height:72)">
+<!-- <img id="background" src="http://il3.picdn.net/shutterstock/videos/5001788/thumb/6.jpg?i10c=img.resize(height:72)"> -->
 
 <!-- images are my Pokemon gif racers -->
 <img id="pikachu" src="https://s-media-cache-ak0.pinimg.com/originals/9f/b1/25/9fb125f1fedc8cc62ab5b20699ebd87d.gif">
 <img id="charmander" src="https://68.media.tumblr.com/3351079b30144e3f599b7b41a7ed2669/tumblr_ob7gahco5Y1scncwdo1_500.gif">
 <img id="charizard" src="http://epiklyfungames.weebly.com/uploads/2/6/6/1/26616853/110164_orig.gif">
 
-<!-- Button for reset of game -->
-<a class="waves-effect waves-light btn" id="reset">Reset</a>
-<!-- Button for start of race -->
-<a class="waves-effect waves-light btn" id="start">Start</a>
-<!-- Keypress instruction on how to race Pikachu to defeat Charizard -->
-<h5>Pikachu: Press the right arrow to race down the track</h5>
-<!-- Keypress instruction on how to race Charmander to defeat Charizard -->
-<h5>Charmander: Press the 'd' key to race down the track</h5>
-
-</div>		
+<div class="container">
+	<div class="row">
+		<div class="buttons">
+	<!-- Button for reset of game -->
+			<a class="waves-effect waves-light btn" id="reset">Reset</a><br>
+			<!-- Button for start of race -->
+			<a class="waves-effect waves-light btn" id="start">Start</a>
+			<!-- Keypress instruction on how to race Pikachu to defeat Charizard -->
+			<h5>Pikachu: Press the right arrow to race down the track</h5>
+			<!-- Keypress instruction on how to race Charmander to defeat Charizard -->
+			<h5>Charmander: Press the 'd' key to race down the track</h5>
+		</div>
+	</div>		
+</div>
 
 </body>
 </html>

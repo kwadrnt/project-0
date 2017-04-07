@@ -1,42 +1,47 @@
 body {
-  background-image: url("http://i.imgur.com/AgECUfc.jpg");
+  background-image: url('../img/pokemon.jpg');
 }
 
 #background {
   position:relative;
   left:-8px;
-  height: 300px;
-  width: 800px;
+  height: 320px;
+  width: 1200px;
 }
 
 .logo {
   position: relative;
   width: 800px;
-  height: 200px;
+  height: 180px;
 }
+
+/*.logo:hover {
+  background-color: yellow;
+}*/
 
 #pikachu {
   position:absolute;
-  top:270px;
-  left:0px;
-  width:100px;
+  top: 520px;
+  left: 0px;
+  width: 100px;
 }
 
 #charmander {
   position:absolute;
-  top:200px;
-  left:0px;
-  width:100px;
+  top: 600px;
+  left: 0px;
+  width: 100px;
 }
 
 #charizard {
   position:absolute;
-  top:120px;
-  left:0px;
-  width:80px;
+  top: 300px;
+  left: 0px;
+  width: 80px;
 }
 
 #start {
+  background-color: #2F4779;
   position: relative;
   margin-top:20px;
   display:block;
@@ -45,6 +50,7 @@ body {
   border-radius: 10px;
   alignment-baseline: left;
   margin: 0 auto;
+  float: left;
 }
 
 #start:hover {
@@ -53,6 +59,7 @@ body {
 }
 
 #reset {
+  background-color: #2F4779;
   position: relative;
   margin-top:20px;
   display:block;
@@ -61,13 +68,20 @@ body {
   border-radius: 10px;
   alignment-baseline: left;
   margin: 0 auto;
+  float: right;
 }
 
 #reset:hover {
   background-color: red;
 }
 
-h1 {
+.buttons {
+  height: 900px;
+}
+
+h5 {
+  clear: both;
   font-family: 'Bangers', cursive;
-  font-size: 90px;
+  color: white;
+  font-weight: bold;
 }
