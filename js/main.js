@@ -1,9 +1,6 @@
 // sanity check
 console.log('working');
 
-// sanity check
-console.log('this is working')
-
 const RIGHT = 39;
 const LEFT = 37;
 var gameOver=false;
@@ -32,11 +29,11 @@ $('#start').click(function(){
 });
 
 $(document).keydown(function(event){
-  //if right key is pressed
+  // to race Pikachu: if right key is pressed
   if(event.which == RIGHT) {
     $('#pikachu').animate({'left':'+=10'},20)
   }
-  //if ANOTHERKEY is pressed to control
+  // to race Charmander: if 'd' key is pressed
   if(event.which == D) {
     $('#charmander').animate({'left':'+=10'},20)
   }
