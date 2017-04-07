@@ -1,19 +1,62 @@
-.title {
-	text-align: center;
-	font-weight: bold;
+#background {
+  position:relative;
+  left:-8px;
 }
 
-.track {
-	background-color: lightblue;
-	height: 40px;
-	width: 80%;
+/*#background2 {
+  position:relative;
+  left:-12px;
+}*/
+
+#pikachu {
+  position:absolute;
+  top:270px;
+  left:0px;
+  width:100px;
 }
-#p1 {
-	text-align: center;
-	display: inline-block;
-	color: red;
-	border: 1px solid black;
+
+#charmander {
+  position:absolute;
+  top:200px;
+  left:0px;
+  width:100px;
 }
-.divider {
-	width: 80%;
+
+#charizard {
+  position:absolute;
+  top:120px;
+  left:0px;
+  width:80px;
+}
+
+#start {
+  background-color: yellow;
+  color: black;
+  position: absolute;
+  width:80px;
+  height:40px;
+  border-radius:10px;
+  top:400px;
+  left:315px;
+  padding: 0;
+}
+
+#start:hover {
+  background-color: green;
+  color: #fff;
+}
+
+#reset {
+  position: relative;
+  margin-top:20px;
+  display:block;
+  width: 10%;
+  padding: 2px;
+  border-radius: 10px;
+  alignment-baseline: left;
+  margin: 0 auto;
+}
+
+#reset:hover {
+  background-color: red;
 }
