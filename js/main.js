@@ -4,7 +4,7 @@ console.log('working');
 const RIGHT = 39;
 const LEFT = 37;
 var gameOver=false;
-const SPEACE=32;
+const SPACE=32;
 const D=68;
 
 //function to make charizard fly through the racecourse
@@ -38,13 +38,14 @@ $(document).keydown(function(event){
     $('#charmander').animate({'left':'+=10'},20)
   }
   
-  //if Pikachu win:reaches the end of track
+  //if Pikachu wins:reaches the end of track
   if($('#pikachu').css('left')=='1000px') {
     if(gameOver!==true) {
       Materialize.toast('Pikachu wins! Press reset to play again', 10000);
       gameOver=true;
     }
   }
+  //if Charmander wins:reaches the end of track
   if($('#charmander').css('left')=='1000px') {
     if(gameOver!==true) {
       Materialize.toast('Charmander wins! Press reset to play again', 10000);
